@@ -2,13 +2,11 @@
 
 {% block title %}Login{% endblock title %}
 
-{% block body %}
+{% block navbar_title %}iExam Portal{% endblock navbar_title %}
 
-    <style>
-        body{
-            background-image: url("https://image.shutterstock.com/shutterstock/photos/689919184/display_1500/stock-vector-engraved-hand-drawn-in-old-sketch-and-vintage-style-scientific-formulas-and-calculations-in-689919184.jpg");
-        }
-    </style>
+{% block navitem_title %}Login{% endblock navitem_title %}
+
+{% block body %}
     
     {% if wrong_cred_message %}
     <div class="alert alert-danger alert-dismissible" role="alert">
